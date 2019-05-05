@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">meuApp</string>
+    <string name="btn_gerarNumero">Gerar Número</string>
+    <string name="txt_tvmain">Número Gerado: 0</string>
+    <string name="btn_login">Login</string>
+    <string name="cb_mega_sena">Mega Sena</string>
+    <string name="nomeUsuario">douglas</string>
+    <string name="senhaUsuario">12345</string>
+    <string name="title_activity_lista_eventos">ListaEventos</string>
+    <string name="title_menu_ok">OK</string>
+    <string name="title_menu_cancel">Cancelar</string>
+
+</resources>

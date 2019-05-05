@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Views.CalculadoraActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo_calculadora"
+        style="@style/TitlePrimary"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text=" Calculadora Simples "
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/resultado_entrada_calculadora"
+        android:layout_width="351dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/borda_text"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="textEnd" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_C_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn_X_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/btn_dividir_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="/" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_7_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn_8_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn_9_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="9" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_4_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn_5_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn_6_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn_subtrai_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text=" - " />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_1_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn_2_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_3_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn_adiciona_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text=" + " />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ponto_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="." />
+
+        <Button
+            android:id="@+id/btn_0_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn_virgula_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text="," />
+
+        <Button
+            android:id="@+id/btn_igual_calculadora"
+            style="@style/ButtonPrimaryCalculadora"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:background="@drawable/borda_text_calculadora"
+            android:text=" = " />
+
+    </LinearLayout>
+</LinearLayout>

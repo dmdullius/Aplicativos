@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Views.MenuActivity">
+
+    <TextView
+        android:id="@+id/txt_nomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txt_titulo_mn"
+        style="@style/TitlePrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text=" O que você deseja fazer? " />
+
+    <Button
+        android:id="@+id/btn_menu_main"
+        style="@style/ButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="🔀Gerar Número Aleatorio" />
+
+    <Button
+        android:id="@+id/btn_menu_calc"
+        style="@style/ButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="🔢Abrir Calculadora" />
+
+    <Button
+        android:id="@+id/btn_menu_mega_sena"
+        style="@style/ButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="💲Gerar Aposta da Mega Sena" />
+
+    <Button
+        android:id="@+id/btn_menu_ListaEventos"
+        style="@style/ButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🗓️Listar ou Cadastrar  Eventos" />
+
+</LinearLayout>
