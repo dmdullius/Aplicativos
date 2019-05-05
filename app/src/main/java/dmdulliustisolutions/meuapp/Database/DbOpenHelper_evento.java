@@ -1,4 +1,4 @@
-package dmdulliustisolutions.meuapp.Ferramentas;
+package dmdulliustisolutions.meuapp.Database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

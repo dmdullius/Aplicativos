@@ -8,6 +8,7 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
+import dmdulliustisolutions.meuapp.Database.DbOpenHelper_evento;
 import dmdulliustisolutions.meuapp.Modelos.Evento;
 
 
