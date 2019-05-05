@@ -6,9 +6,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DbOpenHelper_evento extends SQLiteOpenHelper {
 
-    private static final String NM_BANCO = "cadastro_eventos";
+    private static final String NM_BANCO = "cadastro_eventos.db";
     private static final int VERSION = 1;
-    private static final String TABELA_EVENTOS = "eventos";
+    public static final String TABELA_EVENTOS = "eventos";
 
     public DbOpenHelper_evento(Context context) {
         super(context, NM_BANCO, null, VERSION);
@@ -21,7 +21,7 @@ public class DbOpenHelper_evento extends SQLiteOpenHelper {
         sql.append(" CREATE TABLE IF NOT EXISTS " + TABELA_EVENTOS + "( ");
         sql.append(" id INTEGER PRIMARY KEY AUTOINCREMENT, ");
         sql.append(" titulo VARCHAR(50) NOT NULL DEFAULT (''), ");
-        sql.append(" descricao VARCHAR(100) NOT NULL DEFAULT (''), ");
+        sql.append(" descricao VARCHAR(200) NOT NULL DEFAULT (''), ");
         sql.append(" data VARCHAR(12) NOT NULL DEFAULT (''), ");
         sql.append(" vagas INTEGER NOT NULL DEFAULT ('') ");
 
@@ -34,7 +34,6 @@ public class DbOpenHelper_evento extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("drop table eventos;");
-        onCreate(db);
+
     }
 }

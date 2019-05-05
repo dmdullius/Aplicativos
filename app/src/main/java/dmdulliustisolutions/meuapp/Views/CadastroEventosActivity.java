@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import dmdulliustisolutions.meuapp.Ferramentas.EventoDAO;
+import dmdulliustisolutions.meuapp.Controller.EventoDAO;
 import dmdulliustisolutions.meuapp.Modelos.Evento;
 import dmdulliustisolutions.meuapp.R;
 

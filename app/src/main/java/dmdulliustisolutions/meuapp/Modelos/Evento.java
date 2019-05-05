@@ -4,14 +4,7 @@ public class Evento {
     private String data, titulo, descricao;
     private int vagas, id;
 
-    public Evento(String data, String titulo, String descricao, int vagas) {
 
-        this.data = data;
-        this.titulo = titulo;
-        this.descricao = descricao;
-        this.vagas = vagas;
-        this.id = id;
-    }
 
 
     public String getData() {
@@ -22,7 +15,7 @@ public class Evento {
         this.data = data;
     }
 
-    public String getNome() {
+    public String getTitulo() {
         return titulo;
     }
 
